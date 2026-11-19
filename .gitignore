@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Benchmark results, capture PCAPs and data dumps
+results/*.csv
+results/*.pcap
+results/*.json
+results/*.png
+!results/.gitkeep
+
+# Sensitive cryptographic keys and generated certificates
+certs/*.key
+certs/*.pem
+certs/*.crt
+certs/*.csr
+!certs/.gitkeep
+
+# Logs and runtime artifacts
+*.log
+*.pid
+
+# C extensions / build artifacts
+*.so
+*.o
+*.a
+build/
+dist/
+*.egg-info/
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor / OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
